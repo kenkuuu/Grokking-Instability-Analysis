@@ -1,0 +1,27 @@
+# ▶ Python / Pip
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+# ▶ Jupyter
+.ipynb_checkpoints/
+# ▶ Logs
+*.log
+# ▶ Data / Checkpoints
+data/
+checkpoints/
+# ▶ VSCode / PyCharm 等
+.vscode/
+.idea/
+# ▶ Docker build cache
+**/dist/
+**/build/
+# ▶ OS
+.DS_Store
+Thumbs.db
+# ▶ Notebooks with executed cells (optional)
+experiments/*.ipynb
+# ▶ Secrets
+*.secret
